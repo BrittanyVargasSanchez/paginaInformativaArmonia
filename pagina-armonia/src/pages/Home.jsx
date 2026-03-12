@@ -7,9 +7,34 @@ const Home = () => {
   return (
     <>     
     <Header />
-    <main className="home-main">
-      <h2>Bienvenidos a Soda Armonia</h2>
-      <p>En Soda Armonia, nos apasiona ofrecerte una experiencia única de sabores y calidad. Nuestra soda artesanal está hecha con ingredientes naturales y un toque de amor, para que cada sorbo sea una explosión de frescura y sabor. ¡Descubre nuestra variedad de sabores y disfruta de la auténtica soda artesanal en cada botella!</p>
+    <main className="body">
+      <div classname="primera-card">
+        <h2>Soda Armonía</h2>
+        <p>Tu rincón de agricultura orgánica y alimentación saludable</p>
+        <button classname="btn-primero">Contáctanos</button>
+      </div>
+      <div classname="descripcion">
+        <h2>Descubre Soda Armonía</h2>
+        <p>Soda Armonía es un departamento de la empresa Armonía cuyo objetivo es alimentar a la comunidad estudiantil del CTPCIT de manera segura y saludable. Nosotros cultivamos nuetros propios productos en armonia con el medio ambiente para brindar alimentos frescos y deliciosos.</p>
+      </div>
+      <div classname="servicios">
+        <h2>Nuestros servicios</h2>
+        <div classname="servicios-card">
+          <h2>Alimentos frescos</h2>
+          <p>Ofrecemos una variedad de alimentos frescos cultivados en nuestra propia huerta, garantizando calidad y sabor excepcionales.</p>
+        </div>
+        <div classname="servicios-card">
+          <h2>Venta de productos orgánicos</h2>
+          <p>Además de nuestros alimentos frescos, también ofrecemos una selección de productos orgánicos para aquellos que buscan opciones saludables y sostenibles.</p>
+        </div>
+        <div classname="servicios-card">
+          <h2>Educación y talleres</h2>
+          <p>Organizamos talleres y actividades educativas para promover la agricultura orgánica y la alimentación saludable entre la comunidad estudiantil.</p>
+        </div>
+      </div>
+      <div classname="primera-card">
+        <h2>Galería de imágenes</h2>
+      </div>
     </main>
     <Footer />
     </>
