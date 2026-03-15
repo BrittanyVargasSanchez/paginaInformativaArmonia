@@ -19,10 +19,12 @@ const Home = () => {
         </div>
       </div>
       <div className="segunda-card">
-        <img src={descubreImg} alt="Descubre Soda Armonía" className="descubre-img" />
         <div className="segunda-card-content">
-          <h2>Descubre Soda Armonía</h2>
-          <p>Soda Armonía es un departamento de la empresa Armonía cuyo objetivo es alimentar a la comunidad estudiantil del CTPCIT de manera segura y saludable. Nosotros cultivamos nuetros propios productos en armonia con el medio ambiente para brindar alimentos frescos y deliciosos.</p>
+          <img src={descubreImg} alt="Descubre Soda Armonía" className="descubre-img" />
+          <div className="segunda-card-text">
+            <h2>Descubre Soda Armonía</h2>
+            <p>Soda Armonía es un departamento de la empresa Armonía cuyo objetivo es alimentar a la comunidad estudiantil del CTPCIT de manera segura y saludable. Nosotros cultivamos nuetros propios productos en armonia con el medio ambiente para brindar alimentos frescos y deliciosos.</p>
+          </div>
         </div>
       </div>
       <div className="servicios">

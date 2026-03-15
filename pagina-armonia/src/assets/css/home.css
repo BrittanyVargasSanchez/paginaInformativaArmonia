@@ -19,30 +19,61 @@
     transform: translate(-50%, -50%);
     width: auto; 
     h2 {
-        font-size: 3rem;
+        font-size: 50px;
     }
     p {
-        font-size: 1.5rem;
+        font-size: 30px;
+        font-weight: medium;
         margin: 20px 0;
+        padding-bottom: 10px;
     }
     button {
         background-color: #c4d898;
         color: #093622;
         font-weight: bold;
+        font-size: 20px;
     }
 }
 
 /* Estilos para segunda card (Descubre soda y galeria de imagenes) */
 
+/*Fondo del contenedor*/
 .segunda-card {
-    background-image: url('../images/card2-bg.svg');
+    display: flex;
+    align-items: center;
+    background: url('../images/card2-bg.svg');
     background-size: cover;
     background-position: center;
-    padding: 20vh;
-    color:#093622;
-    .descubre-img {
-        width: 50%;
-        height: 50%;
-        object-fit: cover;
+    background-repeat: no-repeat;
+    padding: 5vh 10vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.segunda-card-content {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 15px;
+    display: flex;
+    padding: 0;
+    overflow: hidden;
+    width: 80%;
+    height: 40vh;
+}
+
+.descubre-img {
+    width: 30%;
+    object-fit: cover;
+}
+
+.segunda-card-text {
+    padding: 20px;
+    padding-left: 100px;
+    width: 50%;
+    color : #093622;
+    h2 {
+        font-size: 35px;
+    }
+    p {
+        font-size: 15px;
     }
 }
