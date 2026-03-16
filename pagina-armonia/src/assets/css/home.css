@@ -57,11 +57,12 @@
     padding: 0;
     overflow: hidden;
     width: 80%;
-    height: 40vh;
+    height: auto;
 }
 
 .descubre-img {
-    width: 30%;
+    width: 40vh;
+    height: 40vh;
     object-fit: cover;
 }
 
@@ -107,7 +108,7 @@
     border-radius: 15px;
     padding: 2%;
     width: 40vh;
-    height: 30vh;
+    height: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
