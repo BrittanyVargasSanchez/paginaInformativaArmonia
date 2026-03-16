@@ -1,10 +1,10 @@
 import Header from "../components/header.jsx";
 import Footer from "../components/footer.jsx";
-
-import correoIcon from "../assets/ic-correo.svg";
-import telIcon from "../assets/ic-tel.svg";
-import ubiIcon from "../assets/ic-ubi.svg";
-import fotoMapa from "../assets/images/foto-mapa.jpg";
+import "../assets/css/contacto.css";
+import correoIcon from "../assets/images/ic-correo.svg";
+import telIcon from "../assets/images/ic-tel.svg";
+import ubiIcon from "../assets/images/ic-ubi.svg";
+import fotoMapa from "../assets/images/images-galeria/foto2.jpeg";
 import mapaImg from "../assets/images/Mapa.png";
 
 function Contacto() {
