@@ -27,6 +27,7 @@ body{
     background-color: #012501d3;
     p {
         margin-block: 10px;
+        font-size: larger;
     }
 }
 
@@ -40,7 +41,7 @@ body{
     background: url("../images/card2-bg.svg");
     background-size: cover;
     background-position: center;
-    color: #012501d3;
+    color: #012501;
 }
 
 /* Información Contacto */

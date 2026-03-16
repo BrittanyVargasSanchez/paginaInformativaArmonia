@@ -29,7 +29,7 @@
     }
     button {
         background-color: #c4d898;
-        color: #093622;
+        color: #012501;
         font-weight: bold;
         font-size: 20px;
     }
@@ -40,6 +40,7 @@
 /*Fondo del contenedor*/
 .segunda-card {
     display: flex;
+    flex-direction: column;
     align-items: center;
     background: url('../images/card2-bg.svg');
     background-size: cover;
@@ -48,6 +49,7 @@
     padding: 5vh 10vh;
     align-items: center;
     justify-content: center;
+    color: #012501;
 }
 
 .segunda-card-content {
@@ -70,7 +72,7 @@
     padding: 20px;
     padding-left: 100px;
     width: 50%;
-    color : #093622;
+    color : #012501;
     h2 {
         font-size: 35px;
     }
@@ -114,15 +116,13 @@
     align-items: center;
     justify-content: flex-start;
     text-align: center;
-
+    color: #012501;
     h2 {
         font-size: 24px;
-        color: #093622;
         margin: 0.8rem 0 0.5rem;
     }
     p {
         font-size: 15px;
-        color: #093622;
         margin: 0;
     }
 }

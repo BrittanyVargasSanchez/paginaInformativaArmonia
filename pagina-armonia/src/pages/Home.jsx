@@ -1,6 +1,8 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Header from "../components/header.jsx";
 import Footer from "../components/footer.jsx";
+import Carrusel from "../components/carrusel.jsx";
 import "../assets/css/home.css";
 import primeraCardImg from "../assets/images/primeracard.jpg";
 import descubreImg from "../assets/images/descubre.jpeg";
@@ -19,7 +21,7 @@ const Home = () => {
         <div className="primera-card-content">
           <h2>Bienvenidos a Soda Armonía</h2>
           <p>Tu rincón de agricultura orgánica y alimentación saludable</p>
-          <button className="btn-primero">Contáctanos</button>
+          <Link to="/contacto"><button className="btn-primero">Contáctanos</button></Link>
         </div>
       </div>
       <div className="segunda-card">
@@ -53,9 +55,7 @@ const Home = () => {
       </div>
       <div className="segunda-card">
         <h2>Galería de imágenes</h2> 
-        <div className="galeria">
-          {/* agregar carrusel de imágenes aqui */}
-        </div>
+        <Carrusel />
       </div>
     </main>
     <Footer />
