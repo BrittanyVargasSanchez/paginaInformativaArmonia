@@ -6,8 +6,12 @@ body{
 
 .header{
   width:100%;
-  height:70px;
+  height:90px;
   background-color:#2f6b3f;
+  background-image: url('../assets/images/header.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   display:flex;
   justify-content:space-between;
   align-items:center;
@@ -16,9 +20,18 @@ body{
 }
 
 .logo{
-  color:white;
-  font-size:22px;
-  font-weight:bold;
+  width: 200px;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo img{
+  max-width: 100%;
+  height: auto;
+  display: block;
+  object-fit: contain;
 }
 
 .nav{
