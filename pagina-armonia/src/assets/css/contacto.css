@@ -31,14 +31,14 @@ body{
 
 main {
     padding: 30px;
-    background: url("../images/banner-contacto.jpg");
+    background: url("../images/contacto-bg.svg");
     background-size: cover;
     background-position: center;
     color: #012501d3;
 }
 /* Sección Contacto */
 .contacto {
-    height: 510px;
+    height: 520px;
     width: inherit;
     display: flex;
     flex-direction: row;

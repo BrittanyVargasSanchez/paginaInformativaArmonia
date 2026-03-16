@@ -1,6 +1,6 @@
 import Header from "../components/header.jsx";
 import Footer from "../components/footer.jsx";
-
+import "../assets/css/contacto.css";
 import correoIcon from "../assets/ic-correo.svg";
 import telIcon from "../assets/ic-tel.svg";
 import ubiIcon from "../assets/ic-ubi.svg";
