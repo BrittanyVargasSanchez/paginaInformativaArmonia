@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import Header from "../components/header.jsx";
 import Footer from "../components/footer.jsx";
 import Carrusel from "../components/carrusel.jsx";
-import "../assets/css/home.css";
+import "./home.css";
 import primeraCardImg from "../assets/images/primeracard.jpg";
 import descubreImg from "../assets/images/descubre.jpeg";
 import alimentacionImg from "../assets/images/alimentacion.png";

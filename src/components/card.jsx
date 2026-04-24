@@ -1,5 +1,5 @@
 import React from 'react';
-import './cardproductos.css';
+import './card.css';
 
 const CardProducto = ({ producto }) => {
  const comprar = async () => {
