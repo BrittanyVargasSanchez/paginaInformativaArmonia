@@ -21,7 +21,7 @@ const Home = () => {
         <div className="primera-card-content">
           <h2>Bienvenidos a Soda Armonía</h2>
           <p>Tu rincón de agricultura orgánica y alimentación saludable</p>
-          <Link to="/contacto"><button className="btn-primero">Contáctanos</button></Link>
+          <Link to="/productos"><button className="btn-primero">Ve nuestros productos</button></Link>
         </div>
       </div>
       <div className="segunda-card">

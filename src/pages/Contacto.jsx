@@ -44,8 +44,8 @@ function Contacto() {
                             </div>
                         </div>
                         <h2>Horario de atención</h2>
-                        <p>Lunes a viernes: 9:00 - 18:00</p>
-                        <p>Sábados: 10:00 - 14:00</p>
+                        <p><strong>Lunes a viernes:</strong> 9:00 - 18:00</p>
+                        <p><strong>Sábados:</strong> 10:00 - 14:00</p>
                     </div>
                     <div className="contacto-img">
                         <img src={fotoMapa} alt="Imagen random" />
