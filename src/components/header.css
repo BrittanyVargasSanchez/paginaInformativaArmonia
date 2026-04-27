@@ -37,6 +37,7 @@ body{
 .nav{
   display:flex;
   gap:25px;
+  align-items: center;
 }
 
 .nav a{
@@ -47,4 +48,18 @@ body{
 
 .nav a:hover{
   opacity:0.7;
+}
+
+.btn-carrito {
+  background: #fff;
+  color: #2f6b3f;
+  padding: 8px 15px;
+  border-radius: 5px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-carrito:hover {
+  background: #f0f0f0;
 }

@@ -155,3 +155,101 @@ app.delete("/carrito", async (req, res) => {
 
 
 })
+/*API para obtener productos*/
+
+app.get("/productos", async (req, res) => {
+
+
+  try {
+
+
+    const result = await pool.query("SELECT * FROM productos")
+
+
+    res.json(result.rows)
+
+
+  } catch (error) {
+
+
+    console.log(error)
+
+
+    res.status(500).json({ error: "Error al obtener productos" })
+
+
+  }
+
+
+})
+
+/*API para agregar producto*/
+
+app.post("/productos", async (req, res) => {
+
+
+  const { nombre, precio, imagen, cantidad } = req.body
+
+
+  try {
+
+
+    await pool.query(
+
+
+      "INSERT INTO productos(nombre,precio,imagen,cantidad) VALUES(,,,)",
+
+
+      [nombre, precio, imagen, cantidad]
+
+
+    )
+
+
+    res.json({ mensaje: "Producto agregado" })
+
+
+  } catch (error) {
+
+
+    console.log(error)
+
+
+    res.status(500).json({ error: "Error al agregar producto" })
+
+
+  }
+
+
+})
+
+/*API para eliminar producto*/
+
+app.delete("/productos/:id", async (req, res) => {
+
+
+  const { id } = req.params
+
+
+  try {
+
+
+    await pool.query("DELETE FROM productos WHERE id=", [id])
+
+
+    res.json({ mensaje: "Producto eliminado" })
+
+
+  } catch (error) {
+
+
+    console.log(error)
+
+
+    res.status(500).json({ error: "Error al eliminar producto" })
+
+
+  }
+
+
+})

@@ -8,10 +8,17 @@ function Productos() {
     return (
         <div className="page">
             <Header />
-            <main className="body">
+            <main className="productos">
                 <h1>Nuestros Productos</h1>
                 <div className="cards">
-
+                    <Card
+                        producto={{
+                            imagen: "https://static.wikia.nocookie.net/wikiinde/images/8/82/Minecraft.jpg/revision/latest?cb=20150902020013&path-prefix=es",
+                            nombre: "Producto 1",
+                            descripcion: "Descripción del producto 1",
+                            precio: 100
+                        }}
+                    />
                 </div>
             </main>
             <Footer />
