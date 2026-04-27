@@ -2,7 +2,7 @@
 .primera-card {
     position: relative; 
     text-align: center;
-    color: white; /* Color del texto */
+    color: white;
 }
 
 .primera-card .portada {
@@ -42,7 +42,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: url('../assets/images/card2-bg.svg');
+    background: url('../assets/images/bg-1.svg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -87,12 +87,12 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: url('../assets/images/servicios-bg.svg');
+    background: url('../assets/images/bg-2.svg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     padding: 5vh 10vh;
-    gap: 25px; /* Espacio entre el título y las tarjetas */
+    gap: 25px;
     h2 {
         font-size: 30px;
     }
@@ -100,7 +100,7 @@
 
 .servicios-container {
     display: flex;
-    gap: 20px; /* Espacio para que las tarjetas no choquen entre si y que hayan huequitos */
+    gap: 20px;
     justify-content: center;
     width: 75%;
 }
