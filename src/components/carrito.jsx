@@ -51,7 +51,7 @@ function CarritoPopup({ show, onClose }) {
                                     <img src={p.imagen} alt={p.nombre} />
                                     <div className="carrito-item-info">
                                         <h4>{p.nombre}</h4>
-                                        <p>${p.precio} x {p.cantidad}</p>
+                                        <p>₡{p.precio} x {p.cantidad}</p>
                                     </div>
                                     <button onClick={() => eliminar(p.id)} className="btn-eliminar">
                                         Eliminar
@@ -60,7 +60,7 @@ function CarritoPopup({ show, onClose }) {
                             ))}
                         </div>
                         <div className="carrito-total">
-                            <h3>Total: ${total}</h3>
+                            <h3>Total: ₡{total}</h3>
                             <button onClick={vaciar} className="btn-vaciar">Vaciar Carrito</button>
                             <button className="btn-comprar">Finalizar Compra</button>
                         </div>

@@ -9,23 +9,24 @@ body{
 }
 
 .cards {
-    display: flex;
-    gap: 30px;
-    flex-wrap: wrap;
-    justify-content: center;
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .card {
-    display: flex;
-    flex-direction: column;
-    border-radius: 12px;
-    color: #012501;
-    align-items: center;
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); 
-    padding: 25px;
-    gap: 15px;
-    width: fit-content;
-    background-color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  border-radius: 12px;
+  color: #012501;
+  align-items: center;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); 
+  padding: 25px;
+  gap: 15px;
+  width: 350px;
+  height: inherit;
+  background-color: #FFFFFF;
 }
  
 h3 {
@@ -33,10 +34,11 @@ h3 {
 }
 p {
   font-size: medium;
+  text-align: center;
 }
 img {
   width: 300px;
-  height: 200px;
+  height: 250px;
   object-fit: cover;
   border-radius: 10px;
 }

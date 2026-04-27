@@ -66,6 +66,7 @@
 
 .carrito-item-info {
     flex: 1;
+    color: black;
 }
 
 .carrito-item-info h4 {
