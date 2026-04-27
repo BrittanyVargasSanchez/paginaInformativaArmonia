@@ -45,7 +45,7 @@ app.listen(3001, () => {
 app.post("/carrito", async (req, res) => {
 
 
-  const { nombre, precio, imagen } = req.body
+  const { nombre, precio, imagen, cantidad } = req.body
 
 
   try {
@@ -55,7 +55,7 @@ app.post("/carrito", async (req, res) => {
 
       "INSERT INTO carrito(nombre,precio,imagen,cantidad) VALUES($1,$2,$3,$4)",
 
-      [nombre, precio, imagen, 1]
+      [nombre, precio, imagen, cantidad || 1]
 
     )
 
